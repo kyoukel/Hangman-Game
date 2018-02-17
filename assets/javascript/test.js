@@ -1,4 +1,6 @@
 
+// THIS TEST CODE WAS CREATED BY TODD PICKELL TO SHOW KIMBERLY YOUKEL HOW TO TEST THE LOGIC AS YOU CREATE THE FUNCTIONALITY.
+
 function assert(expected, actual, message = "Test") {
     if (isObject(expected)) expected = JSON.stringify(expected)
     if (isObject(actual)) actual = JSON.stringify(actual)

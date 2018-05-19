@@ -2,7 +2,7 @@
 
 ## Overview
 
-Create the computer game `Hangman`. 
+Create the computer game `Hangman`. User guesses a letter, letter guessed are displayed, correct letters are inserted into the word, if you guess the word before the max guesses count is reached, you win!
 
 ## Hangman Game Functionality
 
@@ -10,7 +10,7 @@ Create the computer game `Hangman`.
 
 2. Use key events to listen for the letters that your players will type.
 
-### Display the following on the page:**
+### Display the following on the page:
 
    - [x] Press any key to get started!
 
@@ -26,7 +26,7 @@ Create the computer game `Hangman`.
 
    - [x] After the user wins/loses the game should automatically choose another word and make the user play it.
 
-### CHALLENGE YOURSELF WITH THESE BONUSES:
+### Challenge Yourself with these bonuses:
 
 1. Play a sound or song when the user guesses their word correctly, like in our demo.
 

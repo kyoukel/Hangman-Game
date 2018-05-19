@@ -7,8 +7,8 @@ Create the computer game `Hangman`.
 ## Game Rules:
 User guesses a letter, letters guessed are displayed, correct letters are inserted into the mystery word, if you guess the mystery word before the max guesses count is reached, you win! Timer then resets and new game is ready to be played.
 
-* When the user wins, a `green` winner banner is displayed at the top that says: `**CONGRATULATIONS YOU'RE A WINNER!**`
-* When the user loses, a `red` loser banner is displayed at the top that says: `**Nope, Try Again!**`
+* When the user wins, a `green` winner banner is displayed at the top that says: **CONGRATULATIONS YOU'RE A WINNER!**
+* When the user loses, a `red` loser banner is displayed at the top that says: **Nope, Try Again!**
 * All banners remain at the top to track winning status & count number of games played.
 
 ## Hangman Game Functionality

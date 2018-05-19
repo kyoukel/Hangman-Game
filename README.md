@@ -4,10 +4,11 @@
 
 Create the computer game `Hangman`. 
 
-User guesses a letter, letters guessed are displayed, correct letters are inserted into the mystery word, if you guess the mystery word before the max guesses count is reached, you win! Timer then resets and new game is ready to be played. 
+## Game Rules:
+User guesses a letter, letters guessed are displayed, correct letters are inserted into the mystery word, if you guess the mystery word before the max guesses count is reached, you win! Timer then resets and new game is ready to be played.
 
-* When the user wins, a green winner banner is displayed at the top that says: `CONGRATULATIONS YOU'RE A WINNER!`
-* When the user loses, a red loser banner is displayed at the top that says: `Nope, try again!`
+* When the user wins, a `green` winner banner is displayed at the top that says: `**CONGRATULATIONS YOU'RE A WINNER!**`
+* When the user loses, a `red` loser banner is displayed at the top that says: `**Nope, Try Again!**`
 * All banners remain at the top to track winning status & count number of games played.
 
 ## Hangman Game Functionality
@@ -32,7 +33,7 @@ User guesses a letter, letters guessed are displayed, correct letters are insert
 
    - [x] After the user wins/loses the game should automatically choose another word and make the user play it.
 
-### Challenge Yourself with these bonuses:
+### Challenge Bonuses:
 
 1. Play a sound or song when the user guesses their word correctly, like in our demo.
 

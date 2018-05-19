@@ -26,13 +26,13 @@ Create the computer game `Hangman`.
 
    - [x] After the user wins/loses the game should automatically choose another word and make the user play it.
 
-## CHALLENGE YOURSELF WITH THESE BONUSES:
+### CHALLENGE YOURSELF WITH THESE BONUSES:
 
 1. Play a sound or song when the user guesses their word correctly, like in our demo.
 
 2. Write some stylish CSS rules to make a design that fits your game's theme.
 
-## HARD MODE:
+### HARD MODE:
 
 3. Organize your game code as an object, except for the key events to get the letter guessed. 
 

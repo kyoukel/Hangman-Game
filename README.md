@@ -2,7 +2,13 @@
 
 ## Overview
 
-Create the computer game `Hangman`. User guesses a letter, letter guessed are displayed, correct letters are inserted into the word, if you guess the word before the max guesses count is reached, you win!
+Create the computer game `Hangman`. 
+
+User guesses a letter, letters guessed are displayed, correct letters are inserted into the mystery word, if you guess the mystery word before the max guesses count is reached, you win! Timer then resets and new game is ready to be played. 
+
+* When the user wins, a green winner banner is displayed at the top that says: `CONGRATULATIONS YOU'RE A WINNER!`
+* When the user loses, a red loser banner is displayed at the top that says: `Nope, try again!`
+* All banners remain at the top to track winning status & count number of games played.
 
 ## Hangman Game Functionality
 
@@ -45,3 +51,5 @@ Create the computer game `Hangman`. User guesses a letter, letter guessed are di
 6. Don't forget to place your global variables and functions above your object. 
 
    > Remember: global variables, then objects, then calls.
+
+## GOOD LUCK!

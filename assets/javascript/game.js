@@ -21,7 +21,7 @@ var unsolved;
 // determine the number of max guesses by * the length of the word by 2.
 var level = 2;
 // restart game every 8 seconds once win or loss is determined.
-var timer = 6000; 
+var timer = 5000; 
 
 // COUNTERS
 var userGuesses = 0;

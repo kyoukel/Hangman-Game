@@ -21,7 +21,7 @@ var unsolved;
 // determine the number of max guesses by * the length of the word by 2.
 var level = 2;
 // restart game every 8 seconds once win or loss is determined.
-var timer = 8000; 
+var timer = 6000; 
 
 // COUNTERS
 var userGuesses = 0;
@@ -56,10 +56,10 @@ document.onkeyup = function (event) {
 function endGameToast(won) {
     var newDiv = document.createElement("div");
     if (won) {
-        newDiv.innerHTML = "CONGRATULATIONS YOU'RE A WINNER!";
+        newDiv.innerHTML = "CONGRATULATIONS YOU WON!";
         newDiv.setAttribute("class", "alert alert-success");
     } else {
-        newDiv.innerHTML = "Nope, Try Again!";
+        newDiv.innerHTML = "OH NO! BETTER LUCK NEXT TIME!";
         newDiv.setAttribute("class", "alert alert-danger");
     }
     document.getElementById("alert").appendChild(newDiv);

@@ -1,21 +1,11 @@
-//NEED A VARIABLE
-//NEED A FUNCTION
-//NEED TO CALL THE FUNCTION
-
-// ***NEED TO DO: NEED TO REMOVE OTHER WIN/LOSE ALERTS FROM DISPLAY SCREEN AFTER GAME IS OVER.***
-
-// THIS CODE WAS CREATED THROUGH PAIRED PROGRAMMING WITH COMBINED EFFORTS & CONTRIBUTION FROM BOTH TODD PICKELL AND KIMBERLY YOUKEL.
-
-// PSEUDOCODE COMPLETED BY KIMBERLY YOUKEL.
-
 // Array of student names or wordBank
 var studentName = ["Anthony", "Janet", "Brian", "Justin", "Kyler", "Ryan", "Daniel", "Kimberly", "Roberto", "Nicholas", "Amjad", "Michael", "Christian", "Edgar", "Kangxian", "Vu", "Andre", "Steven", "Jacob", "Robert", "Ben", "Nicole", "Andrew", "Larry", "Kurtis", "Elizabeth", "Todd", "Polly", "Brice", "Luke", "David", "Min"]
 
 // Valid characters accepted.
 var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-
-var inCorrectKeys = []
+// Global variables
+var inCorrectKeys = [];
 var answer;
 var unsolved;
 // determine the number of max guesses by * the length of the word by 2.

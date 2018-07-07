@@ -25,8 +25,4 @@ Use key events to listen for the letters that your players will type.
 
 - [x] After the user wins/loses the game should automatically display the next mystery word spaces after 6 seconds
 
-### Challenge Bonuses:
-
-1. Play a sound or song when the user guesses their word correctly, like in our demo.
-
-2. Write some stylish CSS rules to make a design that fits your game's theme.
+## GOOD LUCK!
